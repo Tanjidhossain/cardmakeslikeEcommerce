@@ -1,0 +1,52 @@
+
+header{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 20px;
+
+}
+
+.food{
+      
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+
+img{
+    width: 100%;
+    transition: transform .2s;
+    object-fit: cover;
+    
+    height: 300px;
+}
+
+img:hover{
+    transform: scale(.9); 
+   
+}
+
+
+.food h2, h4, p , button{
+    margin-top:10px ;
+}
+
+h4{
+   color: brown; 
+   
+}
+
+p{
+    color: rgb(10, 83, 29);
+    font-weight: 400;
+}
+
+i{
+    color: orange;
+}
